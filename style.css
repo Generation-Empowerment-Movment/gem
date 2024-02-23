@@ -2,7 +2,6 @@ body {
     font-family: Tahoma, "Trebuchet MS", sans-serif;
     background-color: lightcyan;
     text-align: center;
-    color:black;
 }
 nav {
     position: absolute;
@@ -12,6 +11,7 @@ nav {
     width: 100%;
     text-align: center;
     position: sticky;
+    color: black;
 }
 
 nav ul {
