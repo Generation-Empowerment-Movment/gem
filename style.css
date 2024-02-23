@@ -45,6 +45,7 @@ nav ul li a, nav ul #dropdown {
     height: 5em;
     line-height: 5em;
     outline: 0;
+    text-align: center;
 }
 
 nav li:hover > ul {
