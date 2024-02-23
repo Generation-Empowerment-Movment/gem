@@ -2,6 +2,7 @@ body {
     font-family: Tahoma, "Trebuchet MS", sans-serif;
     background-color: lightcyan;
     text-align: center;
+    color:black;
 }
 nav {
     position: absolute;
