@@ -6,6 +6,10 @@ body {
     background-color: lightcyan;
     text-align: center;
 }
+footer{
+    Margin: 10;
+}
+
 nav {
     position: absolute;
     display: block;
