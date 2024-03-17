@@ -121,6 +121,8 @@ footer  {
 
 footer a {
     font-size: 15px;
+    postion:absolute;
+    margin-bottom:0px;
 }
 
 footer a:link {
