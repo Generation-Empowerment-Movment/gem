@@ -125,19 +125,19 @@ footer a {
     margin-bottom:0px;
 }
 
-footer a:link {
+a:link {
   color: mistyrose;
   background-color: transparent;
   text-decoration: none;
 }
 
-footer a:visited {
+a:visited {
   color: lavender;
   background-color: transparent;
   text-decoration: none;
 }
 
-footer a:hover {
+a:hover {
   color: orchid;
   background-color: transparent;
   text-decoration: underline;
@@ -147,3 +147,7 @@ footer img {
     width: 40px;
 }
 
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
