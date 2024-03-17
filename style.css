@@ -16,9 +16,8 @@ h1 {
 
 h3 {
     letter-spacing: 0.1em;
-       text-transform: uppercase;
-       font-weight: 100;
-       font-size: 1em;
+    font-weight: 100;
+    font-size: 1em;
 }
 
 p {
@@ -99,6 +98,13 @@ nav ul li a, nav ul #dropdown {
 
 nav li:hover > ul {
     display: block;
+}
+
+footer  {
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    margin-bottom: -8px;
 }
 
 footer a {
