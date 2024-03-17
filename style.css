@@ -115,8 +115,29 @@ footer{
 
 .heading a {
     border-radius: 1em;
-    box-shadow: inset 0px 0px 1px 1px white;
+    box-shadow: inset 0px 0px 1px 1px #3b4e76;
     padding: 0 1.5em 0 1.5em;
+    font-size: 15px;
+    postion:absolute;
+    margin-bottom:0px;
+}
+
+.heading a:hover {
+  color: orchid;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.heading a:link {
+  color: #3b4e76;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.heading a:visited {
+  color: navy;
+  background-color: transparent;
+  text-decoration: none;
 }
 
 footer  {
@@ -132,19 +153,19 @@ footer a {
     margin-bottom:0px;
 }
 
-a:link {
+footer a:link {
   color: mistyrose;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:visited {
+footer a:visited {
   color: lavender;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:hover {
+footer a:hover {
   color: orchid;
   background-color: transparent;
   text-decoration: underline;
