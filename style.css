@@ -1,33 +1,76 @@
-/*lightgoldenrodyellow*/
-/*mistyrose*/
-
 body {
-    font-family: Tahoma, "Trebuchet MS", sans-serif;
-    background-color: lightcyan;
+    font-family: 'Imprima';
+    background-color: ivory;
     text-align: center;
 }
+
+h1 {
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: black;
+    font-size: 2.5em;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    color:#3b4e76;
+}
+
+h3 {
+    letter-spacing: 0.1em;
+       text-transform: uppercase;
+       font-weight: 100;
+       font-size: 1em;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size:22px;
+    letter-spacing: 0.075em;
+    line-height: 1.35em;
+}
+
 footer{
     padding-bottom: 0px;
     padding-top: 10px;
-    background-color: #7393B3
+    background-color: #3b4e76;
+    color: white;
+}
+
+.heading h1 {
+    font-size: 2em;
+}
+
+.heading {
+    height: 370;
+    background: mistyrose center center;
+    background-size: cover;
+    margin-top: 0px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.navbar {
+    background: #3b4e76 center center;
+    background-size: cover;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
 }
 
 nav {
-    position: absolute;
     display: block;
-    top: 0;
-    left: 0;
     width: 100%;
-    text-align: center;
     position: sticky;
-    color: black;
+    text-align: center;
+    color: white;
 }
 
 nav ul {
     display: inline-block;
-    border-radius: 0.35em;
-    box-shadow: inset 0px 0px 1px 1px black;
     padding: 0 1.5em 0 1.5em;
+    text-align: center;
 }
 
 nav ul li {
@@ -40,10 +83,11 @@ nav ul li {
 nav ul li ul {
     display: none;
     position: absolute;
+    background-color:#3b4e76;
 }
 
 nav ul li a, nav ul #dropdown {
-    color: rgba(0, 0, 0, 0.75);
+    color: white;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.8em;
@@ -51,9 +95,35 @@ nav ul li a, nav ul #dropdown {
     height: 5em;
     line-height: 5em;
     outline: 0;
-    text-align: center;
 }
 
 nav li:hover > ul {
     display: block;
 }
+
+footer a {
+    font-size: 15px;
+}
+
+footer a:link {
+  color: mistyrose;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: lavender;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: orchid;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+footer img {
+    width: 50px;
+}
+
