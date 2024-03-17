@@ -17,8 +17,9 @@ html {
 
 .body {
     text-align: center;
+    
 }
-
+    
 nav {
     display: block;
     width: 100%;
@@ -110,6 +111,12 @@ footer{
     margin-top: 0px;
     margin-left: -8px;
     margin-right: -8px;
+}
+
+.heading a {
+    border-radius: 1em;
+    box-shadow: inset 0px 0px 1px 1px white;
+    padding: 0 1.5em 0 1.5em;
 }
 
 footer  {
