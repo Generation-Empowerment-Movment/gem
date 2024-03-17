@@ -120,13 +120,10 @@ footer{
 }
 
 .heading a {
-    display: inline-block;
     border-radius: 1em;
+    padding: 0 1.5em 0 1.5em;
     box-shadow: inset 0px 0px 1px 1px #3b4e76;
     padding: 0 1.5em 0 1.5em;
-    font-size: 15px;
-    postion:absolute;
-    margin-bottom:0px;
 }
 
 .heading a:hover {
