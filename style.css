@@ -113,6 +113,12 @@ footer{
     margin-right: -8px;
 }
 
+.heading li {
+    font-size:22px;
+    letter-spacing: 0.075em;
+    line-height: 1.35em;
+}
+
 .heading a {
     border-radius: 1em;
     box-shadow: inset 0px 0px 1px 1px #3b4e76;
