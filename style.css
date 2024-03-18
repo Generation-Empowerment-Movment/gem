@@ -201,6 +201,7 @@ ul {
 }
 
 footer {
+  background-color: "lavender";
   position: absolute;
   bottom: 0;
   width: 100%;
