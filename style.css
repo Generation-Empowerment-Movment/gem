@@ -121,10 +121,16 @@ footer{
 
 .heading a {
     border-radius: 1em;
-    padding: 0 1.5em 0 1.5em;
-    box-shadow: inset 0px 0px 1px 1px #3b4e76;
-    padding: 0 1.5em 0 1.5em;
-    position: sticky;
+       border: 2.5px solid #3b4e76;
+       padding: 1em 1.5em 1em 1.5em;
+       font-size: 0.8em;
+       font-weight: bold;
+       letter-spacing: 0.1em;
+       height: 5em;
+       line-height: 5em;
+       text-transform: uppercase;
+       text-decoration: none;
+       color:#3b4e76;
 }
 
 .heading a:hover {
