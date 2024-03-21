@@ -2,6 +2,7 @@ html {
     font-family: 'Imprima';
     background-color: ivory;
     text-align: center;
+    height: 100%;
 }
 
 .navbar {
@@ -210,4 +211,9 @@ footer {
   right: 0;
   left: 0;
   bottom: 0;
+}
+
+.content {
+    position: relative;
+    min-height: 100%;
 }
