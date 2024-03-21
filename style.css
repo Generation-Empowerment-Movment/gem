@@ -216,4 +216,5 @@ footer {
 .content {
     position: relative;
     min-height: 100%;
+    padding: 35px;
 }
