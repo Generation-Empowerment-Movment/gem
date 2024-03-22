@@ -3,7 +3,7 @@ html {
     background-color: ivory;
     text-align: center;
     height: 100%;
-    width: 190%
+    width: 100%
 }
 
 .navbar {
@@ -220,6 +220,7 @@ footer {
     padding-left: 50px;
     padding-right: 50px;
     margin: 0;
+    width: 150%;
      
 }
 
