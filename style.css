@@ -142,7 +142,7 @@ footer{
   text-decoration: underline;
 }
 
-.heading a:link {
+.heading a: link {
   color: #3b4e76;
   background-color: transparent;
   text-decoration: none;
@@ -163,7 +163,7 @@ footer  {
 
 footer a {
     font-size: 15px;
-    postion:absolute;
+    position: absolute;
     margin-bottom:0px;
 }
 
