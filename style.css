@@ -215,13 +215,6 @@ footer {
   margin-bottom: -8px;
 }
 
-.content {
-    position: relative;
-    min-height: 100%;
-    margin: 0;
-    width: 100%;
-     
-}
 
 .header1 {
     position: fixed;
